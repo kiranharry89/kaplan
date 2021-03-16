@@ -2,7 +2,9 @@
     useState - for maintaining the state between components and while passing props
     useEffect - for making API calls.
 
-    imported debounceInput component which waits for the user to stop typing then API call will be fired in case of search. ( we do not want to call API repeatedly as soon as the user starts typing - may result in unexpected behavior)
+    imported debounceInput component which waits for the user to stop typing then API call will be fired
+    in case of search. ( we do not want to call API repeatedly as soon as the user starts typing -
+    may result in unexpected behavior)
 
 
 # How to run the application
