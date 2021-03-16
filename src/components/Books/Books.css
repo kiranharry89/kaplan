@@ -1,0 +1,34 @@
+.loading {
+    position: absolute;
+    height: 100%;
+    width: 85%;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-color: red;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .loading span {
+      animation: logo-spin infinite 0.1s linear;
+    }
+  }
+
+@keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

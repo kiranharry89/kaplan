@@ -1,0 +1,38 @@
+.menu {
+    padding: 1%;
+    width: 20%;
+    box-sizing: border-box;
+    z-index: 1;
+    box-shadow: 0px 0px 6px #999;
+}
+.menu.collapse {
+    width: 4%;
+}
+
+.menu.collapse .nav-text {
+    display: none;
+}
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-menu li img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.nav-menu li {
+    padding-bottom: 15px;
+}
+
+.nav-menu li span.icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    border: 1px solid red;
+    width: 20px;
+    height: 20px;
+}

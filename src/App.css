@@ -1,0 +1,101 @@
+.App {
+  display: flex;
+  width: 100%;
+}
+.main {
+  background-color: #efefef;
+  width: 100%;
+}
+.content {
+  padding: 2% 3.5%;
+}
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+.content-header h2 {
+  margin: 0;
+  font-size: 28px;
+  font-family: system-ui;
+}
+.search {
+  position: relative;
+}
+.search input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #666;
+  height: 20px;
+  width: 45%;
+  padding-left: 30px;
+  outline: none;
+  font-size: 15px;
+}
+.search img {
+  position: absolute;
+  width: 20px;
+}
+.books-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.books-list .book {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border-left: 5px solid #FDA746;
+  box-sizing: border-box;
+  box-shadow: 2px 1px 3px #999;
+  font-size: 14px;
+}
+.book h5 {
+  margin: 0;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+.btn {
+  border: none;
+  background-color: blue;
+  color: #fff;
+  outline: none;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 3px 10px 5px 10px;
+}
+/*
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
